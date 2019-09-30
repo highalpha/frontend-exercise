@@ -1,0 +1,101 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Hermes",
+      "description": "System's central message bus; responsible for handling all commincation between services and auxiliary communication requirements.",
+      "type": "Message Queue",
+      "location": {
+        "cloud": "Google Cloud",
+        "orchestration": "Kubernetes",
+        "cluster": "klowd-cluster-prod",
+        "node": "klowd-262614-gce-n1-standard-1-ab6jbdfk8",
+        "zone": "us-east1-a"
+      },
+      "resources": {
+        "requested": {
+          "cpu": 20,
+          "mem": 512
+        },
+        "spike": {
+          "cpu": 58,
+          "mem": 512
+        }
+      },
+      "metrics": {
+        "uptime": 99.9999
+      },
+      "createdOn": 1569801799222
+    },
+    {
+      "id": 2,
+      "name": "Ares",
+      "description": "Chaos testing engine for whole system. Used to perform random tests of all sorts across system to ensure system resilience.",
+      "type": "Test Apparatus",
+      "location": {
+        "cloud": "Google Cloud",
+        "node": "klowd-262614-gce-n1-standard-1-db42ac88f",
+        "zone": "us-east1-a"
+      },
+      "resources": {
+        "requested": {
+          "cpu": 20,
+          "mem": 512
+        },
+        "spike": {
+          "cpu": 58,
+          "mem": 512
+        }
+      },
+      "createdOn": 1569801799222
+    },
+    {
+      "id": 3,
+      "name": "Poseidon",
+      "description": "Datalake for all IoT signals coming into the system",
+      "type": "Database",
+      "location": {
+        "cloud": "Google Cloud",
+        "instance": "klowd-262614-cassandra-prod",
+        "zone": "us-east1-a"
+      },
+      "resources": {
+        "requested": {
+          "cpu": 20,
+          "mem": 512
+        }
+      },
+      "metrics": {
+        "uptime": 99.9999
+      },
+      "createdOn": 1569801799222
+    },
+    {
+      "id": 4,
+      "name": "Delphi",
+      "description": "The main application's API for core system data",
+      "type": "service",
+      "location": {
+        "cloud": "Google Cloud",
+        "orchestration": "Kubernetes",
+        "cluster": "klowd-cluster-prod",
+        "node": "klowd-262614-gce-n1-standard-1-ab6jbdfk8",
+        "zone": "us-east1-a"
+      },
+      "resources": {
+        "requested": {
+          "cpu": 20,
+          "mem": 64
+        },
+        "spike": {
+          "cpu": 43,
+          "mem": 82
+        }
+      },
+      "metrics": {
+        "uptime": 99.99
+      },
+      "createdOn": 1569801799222
+    }
+  ]
+}

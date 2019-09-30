@@ -1,0 +1,81 @@
+.applications {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.applications .application {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 24px 24px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  height: 67px;
+  transition: height .3s;
+  overflow: hidden;
+}
+
+.applications .application .row-data {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.applications .application.selected {
+  height: 400px;
+}
+
+.applications .application .name {
+  margin-right: 32px;
+  font-weight: bold;
+}
+
+.applications .application .description {
+  flex: 1;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.applications .application .uptime {
+  color: #32CD32;
+}
+
+.applications .application .extended-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.applications .application .extended-info div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.applications .application .extended-info .data-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.applications .application .extended-info .data-field label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.applications .application .extended-info .data-field span {
+  font-size: 14px;
+}
