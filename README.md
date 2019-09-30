@@ -31,22 +31,6 @@ As noted in the context for this exercise, the product team wishes to give users
 
 - Refresh the application list when a new application is created so the user sees their new application right away.
 
-## Optional
-
-Along with the requirements listed above, you may also wish to add things that go beyond the requested updates. Some ideas for things you may (but are not required) to use/add are:
-
-- Redux - for the management of applications data
-
-- Setup a css pre-compiler such as Sass
-
-- Add a loading indicator for any asynchronous request
-
-- Utilize latest ES6/ES7 features
-
-- Implement UI sort feature for the applications list
-
-- Tests
-
 ## How To Get Started
 
 Follow the steps below to start working on this exercise:
@@ -111,7 +95,8 @@ npm run start
 ## Notes
 
 - To run this project, you will need both node and npm on your local machine.
-  - It is probably best to have the latest version of each installed.
+  - Node version v10.0.0+
+  - Npm version 5.0.0+
 
 - This project was seeded using [create-react-app](https://github.com/facebook/create-react-app), so feel free to use any of their documentation to help understand the UI project's setup.
 
