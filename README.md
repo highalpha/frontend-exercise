@@ -4,7 +4,7 @@
 
 You are a front-end engineer at Klowd. Klowd is an infrastructure management platform that gives you visibility into all of your applications running in any cloud or on-prem environment. Klowd's primary functionality is to show a user a list of their running applications and information about those applications. However, the product team recently decided to move forward with a plan to allow users to also create applications from the same UI.
 
-![alt text](https://raw.githubusercontent.com/highalpha/frontend-exercise/master/assets/product_screen_1.png "Exercise")
+![alt text](https://github.com/highalpha/frontend-exercise/blob/master/assets/product_screen_1.png "Exercise")
 
 ## Goals
 
