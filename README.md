@@ -57,6 +57,12 @@ Follow the steps below to start working on this exercise:
 
 3. Make sure you are in the project directory in your terminal of choice
 
+4. Create a branch for your work.
+```bash
+# Use an identifying branch name, such as alex_hester-2019-09-29
+git branch [your-name]-[date]
+```
+
 ### Run the server
 
 1. Change to the server directory
