@@ -1,3 +1,4 @@
+// had some trouble getting the server to run using the pathing to run using nodemon's pathing in start. used node instead
 const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
