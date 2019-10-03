@@ -8,6 +8,12 @@ const getApplications = () => {
   })
 }
 
+const createApplication = (name, type, resources) => {
+  return axios.post(`${apiHost}/applications`,{name, type, resources}).then((res) =>{
+    return Promise.resolve(res)
+  })
+}
 export {
-  getApplications
+  getApplications, 
+  createApplication
 }
