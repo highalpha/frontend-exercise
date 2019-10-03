@@ -22,6 +22,21 @@
   transition: height .3s;
   overflow: hidden;
 }
+.applications .addApplication {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-left: 5px;
+  cursor: pointer;
+  height: 67px;
+  transition: height .3s;
+  overflow: hidden;
+}
 
 .applications .application .row-data {
   width: 100%;
@@ -75,7 +90,24 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
+.applications .application .extended-info .data-field input {
+  border:none; 
+  border-width: 0px; 
+  box-shadow: none;
+}
+.applications .application .extended-info .data-field textarea {
+  border:none; 
+  border-width: 0px; 
+  box-shadow: none;
+}
 
 .applications .application .extended-info .data-field span {
   font-size: 14px;
+}
+
+.addApplication img{
+  height: 33px;
+  width: 33px;
+  margin-top: 15px;
+  margin-left: 16px;
 }
